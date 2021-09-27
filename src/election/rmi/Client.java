@@ -12,7 +12,7 @@ import java.rmi.registry.LocateRegistry;
 import java.security.NoSuchAlgorithmException;
 
 public class Client {
-    static final String QUIT_MESSAGE = "quit";
+    static final String QUIT_MESSAGE = "exit";
     static final int PORT = 2103;
     static Election election;
     static Registry registry;
